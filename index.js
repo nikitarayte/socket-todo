@@ -13,7 +13,7 @@ app.use(cookieParser()) // req.cookies
 app.use(express.static("dist"))
 app.use(cors({
     // origin: "http://localhost:5173",
-    origin: "https://socket-todo-hm3l.onrender.com",
+    origin: "https://socket-todo-1d5c.onrender.com",
     credentials: true
 }))
 
